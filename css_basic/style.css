@@ -1,0 +1,25 @@
+/* Ensure the body is a flex container with column direction */
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Ensure the main is a flex container with row direction and takes automatic space */
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+
+/* The article takes 2/3 of the width */
+article {
+    flex: 2;
+    overflow-y: auto;
+}
+
+/* The aside takes 1/3 of the width */
+aside {
+    flex: 1;
+    overflow-y: auto;
+}
+
