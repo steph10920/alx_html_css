@@ -35,28 +35,144 @@ body{
         color: #007BFF;
         }
         
-        /* Main content styling */
-        main {
-        padding: 20px;
+        /* Main content styling */  
+        .REGISTER {
+            margin-bottom: 20vh; /* Push the content slightly up */
         }
         
-        span, h2, h3, h4 {
-        margin-bottom: 10px;
+        .REGISTER h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .REGISTER span p{
+            display: inline;
+            margin: 0.5rem 0;
+            font-size: 1.5rem;
+            display: flex;
+            justify-content: center;
+            color: aliceblue;
+        }
+        .REGISTER button{
+            padding: 10px 20px;
+            font-size: 1em;
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            }
+            button{
+                display: block;
+                margin: auto;
+            }        
+        
+        
+        .REGISTER button:hover {
+            background-color: #8f2ab8;
+        }
+        .pros h2{
+            display: block;
+        }
+        .professionals {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        
+        .professionals div {
+            text-align: center;
+            color: #fff;
+        }
+        
+        .professionals img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            border: 3px solid #fff;
+        }
+        
+        .professionals h3 {
+            margin-top: 0.5rem;
+            font-size: 1rem;
+        }
+        
+        .professionals p {
+            margin-top: 0.5rem;
+            font-size: 0.9rem;
+        }
+    /* Blockquote styling */
+    .tutorials{
+        background-color: #a64be5;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .tut {
+        background-color: white;
+        padding: 40px 20px;
+        border-radius: 10px;
         text-align: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    .tut h2 {
+        font-size: 2em;
+        margin-bottom: 20px;
+    }
+    .tutorials-container{
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        margin-top: 2rem;
+        background-color: #fff;
+        align-items: center;
         
-        }
-        
-        button {
-        padding: 10px 20px;
-        font-size: 1em;
-        background-color: #007BFF;
-        color: #fff;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-        }
-        button:hover {
-            background-color: #0056b3;
-        }
-
-                    
+        }    
+    .tut h3 {
+        margin: 15px 0 10px;
+        font-size: 1.2em;
+    }
+    
+    .tut p {
+        margin: 10px 0;
+        color: #666;
+        font-size: 0.9em;
+        text-align: center;
+    }
+    
+    .tut .Diagonal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }   
+    .tut .Diagonal h4 {
+        display: inline-block;
+        margin: 10px;
+        font-size: 0.9em;
+    }
+    
+    .tut .Diagonal div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .tut .fa-star {
+        color: #832f63;
+        margin: 0 2px;
+    }
+    
+    .tut p:last-of-type {
+        margin-top: 10px;
+        color: #999;
+        font-size: 0.9em;
+    }
